@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="./images/logo1.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAS RENDRA | Home</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="headerbar">
+          <div class="account">
+            <ul>
+              <a href="#">
+                <li>
+                  <i class="fa-solid fa-house-chimney"></i>
+                </li>
+              </a>
+              <a href="#">
+                <li>
+                  <i
+                    class="fa-solid fa-magnifying-glass searchicon"
+                    id="searchicon1"
+                  ></i>
+                </li>
+              </a>
+              <div class="search" id="searchinput1">
+                <input type="search" />
+                <i class="fa-solid fa-magnifying-glass srchicon"></i>
+              </div>
+              <a href="#">
+                <li>
+                  <i class="fa-solid fa-user" id="user-mb"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+          <div class="nav">
+            <ul>
+              <a href="">
+                <li>Home</li>
+              </a>
+
+              <a href="">
+                <li>About</li>
+              </a>
+
+              <a href="">
+                <li>Food Menu</li>
+              </a>
+
+              <a href="">
+                <li>Book Table</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="logo">
+          <img src="./images/Logo.png" alt="" />
+        </div>
+        <div class="bar">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark" id="hdcross"></i>
+        </div>
+
+        <div class="nav">
+          <ul>
+            <a href="#home" class="smooth-scroll">
+              <li>Home</li>
+            </a>
+            <a href="#about" class="smooth-scroll">
+              <li>About</li>
+            </a>
+            <a href="#food-menu" class="smooth-scroll">
+              <li>Food Menu</li>
+            </a>
+            <a href="#book-table" class="smooth-scroll">
+              <li>Book Table</li>
+            </a>
+          </ul>
+        </div>
+        <div class="account">
+          <ul>
+            <a href="#">
+              <li>
+                <i class="fa-solid fa-house-chimney"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                <i
+                  class="fa-solid fa-magnifying-glass searchicon"
+                  id="searchicon2"
+                ></i>
+              </li>
+            </a>
+            <div class="search" id="searchinput2">
+              <input type="search" />
+              <i class="fa-solid fa-magnifying-glass srchicon"></i>
+            </div>
+            <a href="#">
+              <li>
+                <i class="fa-solid fa-user" id="user-lap" onclick="manut()"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="home">
+      <div class="main_slide">
+        <div class="paraph-container">
+          <p class="manut" id="manut">Halo</p>
+          <h1>Welcome to <span>WARKOP EDAN</span></h1>
+          <p id="pp">
+            Warkop Edan, Inspirasi Ngoding Bertemu Aroma Kopi yang
+            <i id="paraph-text"> Edan </i>!
+          </p>
+          <button class="red_btn" onclick="openPopup()">
+            Sokin bre <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </div>
+        <div>
+          <img src="./images/bannerkecill.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="about">
+      <img src="./images/aboutwarkop.png" alt="About Warkop Edan" id="hitam" />
+
+      <div class="about-content">
+        <div class="about-image">
+          <img src="./images/cafe.png" alt="About Warkop Edan" />
+        </div>
+        <div class="about-details">
+          <h3>Welcome to Warkop Edan</h3>
+          <p>
+            Warkop Edan tempat nya para developer ngoding!, itu yang dipikirkan
+            oleh owner Warkop Edan, dengan website ini warkop edan kini akan
+            lebih praktis saat pembelian dan booking meja..
+          </p>
+          <p>
+            Warkop Edan dengan awal mula terbentuk di karenakan owner yang
+            selalu mencari warkop/cafe yang nyaman buat ngoding, owner
+            menciptakan sebuah warkop yang pas dan enak buat ngopi nongkrong
+            apalagi ngoding karena dengan design ruangan yang bagus dan nyaman
+            membuat para developer yang stress menjadi bahagia dan dengan ramuan
+            kopi yang membuat buff logika yang dapat membuat pelanggan mempunyai
+            otak di atas rata rata
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="food-menu" class="food-menu">
+      <img src="./images/menumakanan.png" alt="Our Food Menu" id="foodmenu" />
+
+      <div class="menu-container">
+        <div class="menu-item">
+          <div class="menu-image">
+            <img src="./images/pisanggoreng.png" alt="Dish 1" />
+          </div>
+          <div class="menu-details">
+            <h3>C sang Goreng</h3>
+            <p>
+              Sebuah Pisang yang di tambah taburan keju membuat semangat ngoding
+              Bahasa C
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-image">
+            <img src="./images/kopi.png" alt="Dish 2" />
+          </div>
+          <div class="menu-details">
+            <h3>Kopi Edan Special</h3>
+            <p>
+              Minuman klasik Warkop Edan, banyak yang suka karena bikin pinter
+              kalo kata owner.
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-image">
+            <img src="./images/kentanggoreng.png" alt="Dish 3" />
+          </div>
+          <div class="menu-details">
+            <h3>Kentang ngoding</h3>
+            <p>
+              Kentang ngoding dengan saos Bolognise yang cita rasa tidak bisa di
+              gambarkan
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-image">
+            <img src="./images/tehmanis.png" alt="Dish 4" />
+          </div>
+          <div class="menu-details">
+            <h3>Teh manis</h3>
+            <p>Teh.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="book-table" class="book-table">
+      <img src="./images/booktable.png" alt="Book a Table" id="booking" />
+
+      <div class="book-table-content">
+        <div class="book-table-image">
+          <img src="./images/booking.png" alt="Book Table" />
+        </div>
+        <div class="book-table-details">
+          <h3>Pesan Meja</h3>
+          <p>
+            Ingin Booking Meja?, bisa booking di sini
+            aja secara online! hanya Rp.10.000 per orang!
+          </p>
+          <label for="numPeople">Jumlah orang:</label>
+          <input type="number" id="numPeople" min="1" value="1" />
+
+          <label for="reservationDate">Tanggal Booking:</label>
+          <input type="date" id="reservationDate" required />
+
+          <label for="reservationTime">Jam Booking:</label>
+          <input type="time" id="reservationTime" required />
+
+          <button class="red_btn" onclick="bookTable()">Pesan</button>
+
+          <div class="book-table-total">
+            <p>Total: <span id="totalAmount">Rp0</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./images/logo.png" alt="Logo" />
+        </div>
+        <div class="footer-text">
+          <p>&copy; 2023 Arka Narendra PPLG1</p>
+        </div>
+        <div class="footer-back-to-top" onclick="scrollToTop()">
+          Back to Top
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
